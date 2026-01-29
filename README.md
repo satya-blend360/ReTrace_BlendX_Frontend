@@ -38,8 +38,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
-cd BlendX/frontend
+git clone [<your-repository-url>](https://github.com/satya-blend360/ReTrace_BlendX_Frontend)
+cd ReTrace_BlendX_Frontend
 ```
 
 ### 2. Install dependencies
@@ -232,23 +232,8 @@ npm run typecheck
 - Verify `VITE_REDIRECT_URL` matches Azure AD configuration
 - Check that the redirect URL is whitelisted in Azure AD app settings
 
-## 🤝 Contributing
-
-1. Create a feature branch (`git checkout -b feature/amazing-feature`)
-2. Commit your changes (`git commit -m 'Add amazing feature'`)
-3. Push to the branch (`git push origin feature/amazing-feature`)
-4. Open a Pull Request
-
+ 
 ## 📄 License
 
 This project is proprietary software developed for BlendX.
-
-## 📞 Support
-
-For questions or issues, contact:
-- **Email**: support@blend360.com
-- **Internal Wiki**: [Link to internal documentation]
-
----
-
-**Built with ❤️ by the BlendX Team**
+ 

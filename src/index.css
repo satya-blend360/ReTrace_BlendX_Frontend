@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply transition-colors duration-200;
+  }
+
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.ant-table-wrapper .ant-table {
+  font-size: 14px;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background-color: #f9fafb;
+  color: #374151;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr:hover > td {
+  background-color: #f9fafb;
+}
+
+.ant-collapse {
+  background: transparent;
+  border: none;
+}
+
+.ant-collapse > .ant-collapse-item {
+  border: none;
+}
+
+.ant-collapse-header {
+  padding: 24px !important;
+}
+
+.ant-input-affix-wrapper {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  border-color: oklch(0.646 0.222 41.116);
+  box-shadow: 0 0 0 2px oklch(0.646 0.222 41.116 / 0.1);
+}
+
+.ant-pagination-item-active {
+  border-color: oklch(0.646 0.222 41.116);
+  background-color: oklch(0.646 0.222 41.116 / 0.1);
+}
+
+.ant-pagination-item-active a {
+  color: oklch(0.646 0.222 41.116);
+}

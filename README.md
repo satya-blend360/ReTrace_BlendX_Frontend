@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone [<your-repository-url>](https://github.com/satya-blend360/ReTrace_BlendX_Frontend)
+git clone https://github.com/satya-blend360/ReTrace_BlendX_Frontend
 cd ReTrace_BlendX_Frontend
 ```
 
